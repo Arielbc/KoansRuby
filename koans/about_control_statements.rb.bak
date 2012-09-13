@@ -128,7 +128,7 @@ class AboutControlStatements < EdgeCase::Koan
     for item in array
       result << item.upcase
     end
-    assert_equal ["FISH", "AND", "CHIPS"], result
+    assert_equal ["fish", "and", "chips"], result
   end
 
 end
